@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - mkdir bin || true
+      - go build -o bin/hydrate hydrate.go
